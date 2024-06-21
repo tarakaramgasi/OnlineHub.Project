@@ -19,7 +19,7 @@ namespace OnlineHub.Repositories
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("server=.;database=OnlineHubDB;TrustServerCertificate=True;Trusted_Connection=true;");
+                optionsBuilder.UseSqlServer("server=TarakaramGasi\\SQLEXPRESS;database=OnlineHubDB;TrustServerCertificate=True;Trusted_Connection=true;");
             }
             base.OnConfiguring(optionsBuilder);
 
