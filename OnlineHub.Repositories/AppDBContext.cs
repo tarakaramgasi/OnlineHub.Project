@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using OnlineHub.Entities;
 namespace OnlineHub.Repositories
 {
-    public class AddDBContext : IdentityDbContext<User,Role,int>
+    public class AppDBContext : IdentityDbContext<User,Role,int>
     {
         public DbSet<Category> Categories { get; set; }
         public DbSet<Item> Items { get; set; }

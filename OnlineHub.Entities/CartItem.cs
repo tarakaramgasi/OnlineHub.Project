@@ -2,6 +2,10 @@
 {
     public class CartItem
     {
+        public CartItem()
+        {
+            
+        }
         public CartItem(int itemId, int quantity, decimal unitprice)
         {
             ItemId = itemId;
